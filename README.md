@@ -1,3 +1,3 @@
 # MachineDrum
 
-Based on @wesbos JavaScript learning project (https://github.com/wesbos/JavaScript30).
+Based on Wes Bos JavaScript30 project (https://github.com/wesbos/JavaScript30). 
