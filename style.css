@@ -1,6 +1,5 @@
 html {
   font-size: 10px;
-  background: url(https://cdn.eyeem.com/thumb/618b3cbe3520323703be7d43ad90ae4ab93d85a2-1498988192085/w/1250) bottom center;
   background-size: cover;
 }
 body,html {
@@ -12,13 +11,12 @@ body,html {
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 23vh;
   align-items: center;
   justify-content: center;
 }
 
 .key {
-  //border: .1rem solid #696969;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
@@ -27,7 +25,7 @@ body,html {
   text-align: center;
   color: #E6E6FA;
   background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
+  text-shadow: .1rem .2rem .5rem black;
 }
 
 .playing {
@@ -46,4 +44,34 @@ kbd {
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #E6E6FA;
+}
+
+.row {
+  margin: 0;
+}
+
+h1 {
+position: relative;
+}
+
+.left,
+.right {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  position: absolute;
+  color: #E6E6FA;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: .8rem;
+  text-shadow: -.3rem .2rem .5rem #000;
+}
+
+.left {
+  left: 13rem;
+  top: 15rem;
+}
+
+.right {
+  right: 13rem;
+  top: 10rem;
 }

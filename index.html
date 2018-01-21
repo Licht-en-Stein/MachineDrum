@@ -8,48 +8,61 @@
 </head>
 
 <body>
-  <div class="keys">
-    <div data-key="65" class="key">
+  <div class=container>
+      <h1>
+        <span class="left">Drum</span>
+        <span class="right">Machine</span>
+      </h1>
+  <div class="row justify-content-center keys">
+    <div data-key="65" class="col-md-4 key">
       <kbd>A</kbd>
       <span class="sound">BassDrum</span>
     </div>
-    <div data-key="83" class="key">
+    <div data-key="83" class="col-md-4 key">
       <kbd>S</kbd>
       <span class="sound">BassKick</span>
     </div>
-    <div data-key="68" class="key">
+  </div>
+  <div class="row justify-content-center keys">
+    <div data-key="68" class="col-md-4 key">
       <kbd>D</kbd>
       <span class="sound">SnareDrum</span>
     </div>
-    <div data-key="70" class="key">
+    <div data-key="70" class="col-md-4 key">
       <kbd>F</kbd>
       <span class="sound">SnareKick</span>
     </div>
-    <div data-key="71" class="key">
+  </div>
+  <div class="row justify-content-center keys">
+    <div data-key="71" class="col-md-4 key">
       <kbd>G</kbd>
       <span class="sound">HiHat</span>
     </div>
-    <div data-key="72" class="key">
+    <div data-key="72" class="col-md-4 key">
       <kbd>H</kbd>
       <span class="sound">Shaker</span>
     </div>
-    <div data-key="74" class="key">
+  </div>
+  <div class="row justify-content-center keys">
+    <div data-key="74" class="col-md-3 key">
       <kbd>J</kbd>
       <span class="sound">FX-Shot1</span>
     </div>
-    <div data-key="75" class="key">
+    <div data-key="75" class="col-md-3 key">
       <kbd>K</kbd>
       <span class="sound">FX-Shot2</span>
     </div>
-    <div data-key="76" class="key">
+    <div data-key="76" class="col-md-3 key">
       <kbd>L</kbd>
       <span class="sound">FX-Shot3</span>
     </div>
-    <div data-key="192" class="key">
+    <div data-key="192" class="col-md-3 key">
       <kbd>Ö</kbd>
       <span class="sound">Vox-FX</span>
     </div>
   </div>
+  </div>
+</div>
   <audio data-key="65" src="sounds/Kick.wav"></audio>
   <audio data-key="83" src="sounds/BassKick.wav"></audio>
   <audio data-key="68" src="sounds/Snare.wav"></audio>
@@ -62,5 +75,7 @@
   <audio data-key="192" src="sounds/FX.wav"></audio>
   <script type="text/javascript" src="main.js"></script>
 </body>
-
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
