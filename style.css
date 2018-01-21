@@ -1,6 +1,5 @@
 html {
   font-size: 10px;
-  // background: url(https://cdn.eyeem.com/thumb/618b3cbe3520323703be7d43ad90ae4ab93d85a2-1498988192085/w/1250) bottom center;
   background-size: cover;
 }
 body,html {
@@ -18,7 +17,6 @@ body,html {
 }
 
 .key {
-  //border: .1rem solid #696969;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
